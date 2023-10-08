@@ -223,14 +223,40 @@ main {
     border-radius: 18px;
 }
 
-.main-banner {}
+.main-banner {
+    height: 280px;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+}
 
 .banner {
     display: flex;
     justify-content: center;
     align-items: center;
+    gap: 90px;
 }
 
-.banner-img img {}
+.banner-img img {
+    height: 250px;
+}
 
 .banner-info {}
+
+.banner-info h3 {
+    font-size: 36px;
+}
+
+.banner-info h6 {
+    font-size: 16px;
+    color: lightslategrey;
+}
+
+.banner-info a {
+    background: tomato;
+    padding: 10px 35px;
+    text-decoration: none;
+    color: ghostwhite;
+    font-size: 16px;
+    font-weight: 600;
+}
