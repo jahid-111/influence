@@ -149,7 +149,7 @@ main {
 .popular-head {}
 
 .collections {
-    background: #f7fcf8;
+    background: #f3f3f3;
     box-shadow: 0px 5px 20px 5px grey;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -162,7 +162,7 @@ main {
 
 .collection {
     padding: 10px;
-    background-color: rgb(202, 202, 202);
+    background-color: rgb(242 255 237);
 }
 
 .product {}
