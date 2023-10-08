@@ -14,6 +14,10 @@ body {
 }
 
 
+.container-two {
+    width: 990px;
+}
+
 
 
 
@@ -202,3 +206,31 @@ main {
     font-weight: 600;
     margin: 18px;
 }
+
+.more-section {
+    margin-top: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.more-section a {
+    color: tomato;
+    padding: 10px;
+    text-decoration: none;
+    font-size: 17px;
+    font-weight: 500;
+    border-radius: 18px;
+}
+
+.main-banner {}
+
+.banner {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.banner-img img {}
+
+.banner-info {}
